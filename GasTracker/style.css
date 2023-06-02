@@ -1,0 +1,205 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background: #D7D7D7;
+    font-family: arial
+
+}
+
+.header {
+
+    height: 15vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: #181717 ;
+    background: #181717;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+
+}
+
+.title {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title_text {
+
+    text-align: center;
+
+}
+
+.logo_header > img {
+
+    width: 100px;
+    height: 100px;
+    left: 23px;
+    top: 14px;
+
+    margin-top: 10px; 
+    margin-left: 10px;
+}
+
+.result {
+
+    width: 250px;
+    height: 100px;
+    left: 595px;
+    top: 668px;
+
+    margin-top: -110px;
+    margin-bottom: 80px;
+
+    background: #181717;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+
+.content {
+
+    width: 100%;
+    height: 65vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  
+
+
+}
+
+.consuption_logo > img {
+
+    width: 170px;
+    height: 170px;
+    margin-bottom: 25px;
+}
+
+.road_logo > img {
+
+    width: 170px;
+    height: 170px;
+    margin-bottom: 25px;
+
+}
+
+.gstation_logo > img {
+
+    width: 170px;
+    height: 170px;
+    margin-bottom: 25px;
+
+}
+
+.interact {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Fcons {
+
+    width: 337px;
+    height: 89px;
+    left: 104px;
+    top: 618px;
+    
+    color: rgba(255, 255, 255, 0.25);
+    background: #181717;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.Kmdriven {
+
+    width: 337px;
+    height: 89px;
+    left: 104px;
+    top: 618px;
+
+    color: rgba(255, 255, 255, 0.25);
+    background: #181717;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+
+}
+
+.Fprice {
+
+    width: 337px;
+    height: 89px;
+    left: 104px;
+    top: 618px;
+
+    color: rgba(255, 255, 255, 0.25);
+    background: #181717;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.content_left {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content_center {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content_right {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.submit {
+
+    width: 250px;
+    height: 75px;
+    left: 595px;
+    top: 882px;
+
+    
+    font-size: 35px;
+    color: #ffffff6e;
+    background: #9F6E29;
+    border-radius: 22px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+
+}
+
+.content_below {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
