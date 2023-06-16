@@ -9,30 +9,38 @@ body {
 
 .header {
 
-    height: 15vh;
     width: 100%;
+    height: 15vh;
 
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
 
+    
     background-color: #181717 ;
     background: #181717;
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
 
 }
 
-.title {
+.title_header {
+    
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    font-size: 28px;
+
+    align-self: center; 
+    justify-self: center;
+}
+.title1 {
+
+    color: white;
 
 }
 
-.title_text {
+.title1 > b {
 
-    text-align: center;
+    color: #9f6e29;
 
 }
 
@@ -43,8 +51,15 @@ body {
     left: 23px;
     top: 14px;
 
-    margin-top: 10px; 
+    margin-top: 15px; 
     margin-left: 10px;
+    
+}
+
+.logo_header {
+
+    align-self: center;
+
 }
 
 .result {
@@ -56,10 +71,14 @@ body {
 
     margin-top: -110px;
     margin-bottom: 80px;
+    text-align: center;
+    font-size: large;
 
+    color: #d7d7d7dc;
     background: #181717;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+
 
 }
 
@@ -113,9 +132,12 @@ body {
     height: 89px;
     left: 104px;
     top: 618px;
+    text-align: center;
+
     
-    color: rgba(255, 255, 255, 0.25);
+    color: #9F6E29;
     background: #181717;
+    font-size: 30px;
     border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
@@ -127,9 +149,12 @@ body {
     height: 89px;
     left: 104px;
     top: 618px;
+    text-align: center;
 
-    color: rgba(255, 255, 255, 0.25);
+
+    color: #9F6E29;
     background: #181717;
+    font-size: 30px;
     border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
@@ -142,9 +167,11 @@ body {
     height: 89px;
     left: 104px;
     top: 618px;
+    text-align: center;
 
-    color: rgba(255, 255, 255, 0.25);
+    color: #9F6E29;
     background: #181717;
+    font-size: 30px;
     border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
@@ -201,5 +228,32 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+}
+
+/* Rodape */
+
+ .bottom {
+
+    margin-top: 10vh;
+    width: 100%;
+    height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    
+    background-color: #181717 ;
+    background: #181717;
+    box-shadow: 5px 4px 40px rgba(0, 0, 0, 0.25);
+
+} 
+
+.autor {
+    margin-left: 10px;
+    color: #D7D7D7;
+
 
 }
