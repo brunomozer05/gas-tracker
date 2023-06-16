@@ -212,7 +212,7 @@ body {
     left: 595px;
     top: 882px;
 
-    
+    cursor: pointer;
     font-size: 35px;
     color: #ffffff6e;
     background: #9F6E29;
@@ -256,4 +256,9 @@ body {
     color: #D7D7D7;
 
 
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
