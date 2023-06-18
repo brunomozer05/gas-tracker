@@ -2,7 +2,7 @@
 This is my First project, made with HTML, JS and CSS.</h2>
 <br>
 <p align="center" dir="auto">
-<img src="https://raw.githubusercontent.com/BrunoMozer05/GasTracker/main/GasTracker/img/icon.png">
+<img src="https://raw.githubusercontent.com/BrunoMozer05/gas-tracker/main/frontend/img/icon.png">
 </p>
 <h3 align="center" tabindex="-1" dir="auto"></a>GasTracker</h3>  
  <br>
