@@ -325,4 +325,16 @@ input::-webkit-inner-spin-button {
 a {
     text-decoration: none;
 }
-  
+    /*--Scrollbar--*/
+
+    ::-webkit-scrollbar {
+        margin-left: 1em;
+    }
+    
+    ::-webkit-scrollbar {
+        width: 8px;
+        background-color: rgba(131, 131, 131, 0.1);
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(129, 129, 129, 0.5);
+    }
