@@ -16,7 +16,7 @@ body {
 .header {
 
     width: 100%;
-    height: 15vh;
+    height: 15%;
 
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ body {
 .title_header {
     
 
-    font-size: 28px;
+    font-size: 3vh;
 
     align-self: center; 
     justify-self: center;
@@ -50,33 +50,20 @@ body {
 
 }
 
-.logo_header > img {
+.img {
 
-    width: 100px;
-    height: 100px;
-    left: 23px;
-    top: 14px;
+    width: 5rem;
+    height: 5rem;
 
-    margin-top: 15px; 
-    margin-left: 10px;
+    margin-top: 0.5rem; 
     
-}
-
-.logo_header {
-
-    align-self: center;
-
 }
 
 .result {
 
-    width: 250px;
-    height: 100px;
-    left: 595px;
-    top: 668px;
-
-    margin-top: -110px;
-    margin-bottom: 80px;
+    width: 15vw;
+    height: 8vh;
+    margin-top: 1rem;
     text-align: center;
     font-size: large;
 
@@ -91,12 +78,12 @@ body {
 .content {
 
     width: 100%;
-    height: 65vh;
+    height: 80vh;
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;  
+    justify-content: space-evenly;
+    align-items: flex-start;  
 
 
 }
@@ -105,14 +92,14 @@ body {
 
     width: 170px;
     height: 170px;
-    margin-bottom: 25px;
+    margin-bottom: 1rem;
 }
 
 .road_logo > img {
 
     width: 170px;
     height: 170px;
-    margin-bottom: 25px;
+    margin-bottom: 1rem;
 
 }
 
@@ -120,7 +107,7 @@ body {
 
     width: 170px;
     height: 170px;
-    margin-bottom: 25px;
+    margin-bottom: 1rem;
 
 }
 
@@ -134,10 +121,8 @@ body {
 
 .Fcons {
 
-    width: 337px;
-    height: 89px;
-    left: 104px;
-    top: 618px;
+    width: 20vw;
+    height: 8vh;
     text-align: center;
 
     
@@ -152,10 +137,9 @@ body {
 
 .Kmdriven {
 
-    width: 337px;
-    height: 89px;
-    left: 104px;
-    top: 618px;
+    width: 20vw;
+    height: 8vh;
+    margin-bottom: 2rem;
     text-align: center;
 
 
@@ -170,10 +154,8 @@ body {
 
 .Fprice {
 
-    width: 337px;
-    height: 89px;
-    left: 104px;
-    top: 618px;
+    width: 20vw;
+    height: 8vh;
     text-align: center;
 
     color: #9F6E29;
@@ -214,11 +196,9 @@ body {
 }
 
 .submit {
-
-    width: 250px;
-    height: 75px;
-    left: 595px;
-    top: 882px;
+    margin-top: 5rem;
+    width: 15vw;
+    height: 8vh;
 
     cursor: pointer;
     font-size: 35px;
@@ -243,7 +223,6 @@ body {
 
  .bottom {
 
-    margin-top: 10vh;
     width: 100%;
     height: 20vh;
 
@@ -258,13 +237,6 @@ body {
     box-shadow: 5px 4px 40px rgba(0, 0, 0, 0.25);
 
 } 
-
-.autor {
-    margin-left: 10px;
-    color: #D7D7D7;
-
-
-}
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -337,4 +309,9 @@ a {
     }
     ::-webkit-scrollbar-thumb {
         background-color: rgba(129, 129, 129, 0.5);
+    }
+
+    .road_logo,.gstation_logo,.consuption_logo{
+
+        margin-top: 6rem;
     }
