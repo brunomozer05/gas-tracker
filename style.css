@@ -1,258 +1,218 @@
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background: #D7D7D7;
-    font-family: arial
-
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #d7d7d7;
+  font-family: arial;
 }
 
-.hub{
-    display: flex;
-    text-decoration: none;
-
+.hub {
+  display: flex;
+  text-decoration: none;
 }
 
 .header {
+  width: 100%;
+  height: 15%;
 
-    width: 100%;
-    height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-
-    
-    background-color: #181717 ;
-    background: #181717;
-    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
-
+  background-color: #181717;
+  background: #181717;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
 }
 
 .title_header {
-    
+  font-size: 3vh;
 
-    font-size: 3vh;
-
-    align-self: center; 
-    justify-self: center;
+  align-self: center;
+  justify-self: center;
 }
 .title1 {
-
-    color: white;
-
+  color: white;
 }
 
 .title1 > b {
-
-    color: #9f6e29;
-
+  color: #9f6e29;
 }
 
 .img {
+  width: 5rem;
+  height: 5rem;
 
-    width: 5rem;
-    height: 5rem;
-
-    margin-top: 0.5rem; 
-    
+  margin-top: 0.5rem;
 }
 
 .result {
+  width: 15vw;
+  height: 8vh;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: large;
 
-    width: 15vw;
-    height: 8vh;
-    margin-top: 1rem;
-    text-align: center;
-    font-size: large;
-
-    color: #d7d7d7dc;
-    background: #181717;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-
-
+  color: #d7d7d7dc;
+  background: #181717;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
 }
 
 .content {
+  width: 100%;
+  height: 80vh;
 
-    width: 100%;
-    height: 80vh;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;  
-
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .consuption_logo > img {
-
-    width: 170px;
-    height: 170px;
-    margin-bottom: 1rem;
+  width: 170px;
+  height: 170px;
+  margin-bottom: 1rem;
 }
 
 .road_logo > img {
-
-    width: 170px;
-    height: 170px;
-    margin-bottom: 1rem;
-
+  width: 170px;
+  height: 170px;
+  margin-bottom: 1rem;
 }
 
 .gstation_logo > img {
-
-    width: 170px;
-    height: 170px;
-    margin-bottom: 1rem;
-
+  width: 170px;
+  height: 170px;
+  margin-bottom: 1rem;
 }
 
 .interact {
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .Fcons {
+  width: 20vw;
+  height: 8vh;
+  text-align: center;
 
-    width: 20vw;
-    height: 8vh;
-    text-align: center;
-
-    
-    color: #9F6E29;
-    background: #181717;
-    font-size: 3vh;
-    border-radius: 20px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: none;
-    outline: none;
+  color: #9f6e29;
+  background: #181717;
+  font-size: 3vh;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  outline: none;
 }
 
 .Kmdriven {
+  width: 20vw;
+  height: 8vh;
+  margin-bottom: 2rem;
+  text-align: center;
 
-    width: 20vw;
-    height: 8vh;
-    margin-bottom: 2rem;
-    text-align: center;
-
-
-    color: #9F6E29;
-    background: #181717;
-    font-size: 3vh;
-    border-radius: 20px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: none;
-    outline: none;
+  color: #9f6e29;
+  background: #181717;
+  font-size: 3vh;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  outline: none;
 }
 
 .Fprice {
+  width: 20vw;
+  height: 8vh;
+  text-align: center;
 
-    width: 20vw;
-    height: 8vh;
-    text-align: center;
-
-    color: #9F6E29;
-    background: #181717;
-    font-size: 3vh;
-    border-radius: 20px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: none;
-    outline: none;
+  color: #9f6e29;
+  background: #181717;
+  font-size: 3vh;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  outline: none;
 }
 
 .content_left {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .content_center {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .content_right {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .submit {
-    margin-top: 5rem;
-    width: 15vw;
-    height: 8vh;
+  margin-top: 5rem;
+  width: 15vw;
+  height: 8vh;
 
-    cursor: pointer;
-    font-size: 3.3vh;
-    color: #ffffff6e;
-    background: #9F6E29;
-    border-radius: 22px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: none;
-
+  cursor: pointer;
+  font-size: 3.3vh;
+  color: #ffffff6e;
+  background: #9f6e29;
+  border-radius: 22px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
 }
 
 /* Rodape */
 
- .bottom {
+.bottom {
+  width: 100%;
+  height: 20vh;
 
-    width: 100%;
-    height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-
-    
-    background-color: #181717 ;
-    background: #181717;
-    box-shadow: 5px 4px 40px rgba(0, 0, 0, 0.25);
-
-} 
+  background-color: #181717;
+  background: #181717;
+  box-shadow: 5px 4px 40px rgba(0, 0, 0, 0.25);
+}
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-    /*--Scrollbar--*/
+/*--Scrollbar--*/
 
-    ::-webkit-scrollbar {
-        margin-left: 1em;
-    }
-    
-    ::-webkit-scrollbar {
-        width: 8px;
-        background-color: rgba(131, 131, 131, 0.1);
-    }
-    ::-webkit-scrollbar-thumb {
-        background-color: rgba(129, 129, 129, 0.5);
-    }
+::-webkit-scrollbar {
+  margin-left: 1em;
+}
 
-    .road_logo,.gstation_logo,.consuption_logo{
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(131, 131, 131, 0.1);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(129, 129, 129, 0.5);
+}
 
-        margin-top: 6rem;
-    }
+.road_logo,
+.gstation_logo,
+.consuption_logo {
+  margin-top: 6rem;
+}
